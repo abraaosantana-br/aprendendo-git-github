@@ -156,3 +156,59 @@ body {
 .comando p {
     color: #aaa;
 }
+
+.terminal {
+    overflow: hidden;
+    border-radius: 15px;
+    background: #08090c;
+    border: 1px solid #292a32;
+}
+
+.terminal-top {
+    display: flex;
+    gap: 7px;
+    padding: 14px;
+    background: #15161b;
+}
+
+.terminal-top span {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #555;
+}
+
+.terminal-body {
+    padding: 25px;
+    font-family: monospace;
+    color: #aaa;
+}
+
+.terminal-body strong {
+    color: #72df9a;
+}
+
+.explicacao {
+    height: 100%;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px #0000000c;
+}
+
+.explicacao h3 {
+    color: #6655e8;
+}
+
+.explicacao p {
+    color: #666;
+    line-height: 1.7;
+}
+
+.explicacao code {
+    display: block;
+    padding: 15px;
+    border-radius: 8px;
+    background: #111;
+    color: #a99fff;
+}
