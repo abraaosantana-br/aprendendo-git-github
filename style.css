@@ -246,3 +246,21 @@ footer h4 {
 footer small {
     color: #666;
 }
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 520px;
+        padding: 100px 0 50px;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .titulo h2,
+    .diferenca h2 {
+        font-size: 2rem;
+    }
+
+}
