@@ -127,3 +127,32 @@ body {
     margin: 25px 0;
     background: #333;
 }
+
+.comandos {
+    background: #101116;
+}
+
+.comandos .titulo p {
+    color: #999;
+}
+
+.comando {
+    height: 100%;
+    padding: 25px;
+    border: 1px solid #2b2c34;
+    border-radius: 15px;
+    background: #181920;
+}
+
+.comando:hover {
+    border-color: #6655e8;
+}
+
+.comando h3 {
+    color: #9589ff;
+    font-family: monospace;
+}
+
+.comando p {
+    color: #aaa;
+}
