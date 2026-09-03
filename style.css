@@ -212,3 +212,37 @@ body {
     background: #111;
     color: #a99fff;
 }
+
+.vantagens {
+    background: #eeeef4;
+}
+
+.beneficio {
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    border-left: 5px solid #6655e8;
+}
+
+.beneficio h3 {
+    font-weight: bold;
+}
+
+.beneficio p {
+    margin: 0;
+    color: #666;
+}
+
+footer {
+    padding: 40px 0;
+    background: #0b0c0f;
+    color: #aaa;
+}
+
+footer h4 {
+    color: white;
+}
+
+footer small {
+    color: #666;
+}
